@@ -1,0 +1,93 @@
+Day - 9 Abhishek Veeramalla
+GIT and GITHUB
+GIT - 
+
+Version control system (VCS)
+1. sharing 
+2. versioning
+
+why GIT is popular
+popular version control systems before GIT are CVS and SVN
+1. CVS - Centralised VCS
+2. SVN - Centralised VCS
+3. GIT - Distributed VCS
+diff between centralised and distributed VCS
+
+dev1 and dev2 used to communicate thorugh centralised control system i.e through SVN/CVS
+
+dev1 can share to distributed control systema and dev2 can pick it or dev1 can make a copy of distribute version control system and call it as distributed system 2. that means developer can created multiple copies of distribution system
+
+FORK - you create an entire copy of distribution system
+GIT is open source 
+
+GITHUB is a solution on top of GIT
+usability
+raising issues
+commenting
+talking to peers
+reviews
+project management
+
+
+terminal
+mkdir example.com
+vim calculator.sh
+x=a+b
+:wq!
+ls 
+git-scm.com
+git for linux/windows based on ur os 
+
+git
+
+git init - to create empty git repository
+
+ls -la
+
+.git is the folder the hidden folder to track git activities
+ls .git - it will list the files in .git folder it has HEAD, config, hooks, objects and refs
+refs - using 
+objects - every file created in git is tracked as objectes
+hooks - if anyone is unintentionnaly commiting passwords or api tokens, this will prevent such kind of incidents
+config - configuring git credentials or secure configuring
+
+git add
+git commit
+git push
+
+git status
+
+git commit -m "This is myn first version"
+git status
+vim calculator.sh
+x=a+b
+y=a-b
+git status
+ls -la 
+.git - this folder has encrypted files which are tracking the project, it can track millions of files also
+git status
+git diff
+git add calculator.sh
+git commit -m "This is my second version"
+git log
+{first version 
+x=a+b }
+{second version 
+x=a+b
+y=a-b}
+
+if we want to go back to previous commit i.e first version
+git reset --hard <previos-vesion--(you will get this from git log)>
+
+
+git log
+git diff
+
+
+how to share the code: GITHUB, Bit Bucket and self hosted GIT  - Distributed systems
+
+
+ex: GITHUB
+create an account with GITHUB
+
+github.com
